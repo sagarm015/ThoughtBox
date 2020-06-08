@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+
+<section id="title s">
+
+
+  <nav class="navbar navbar-expand-lg ">
+    <a class="nav-brand" href="">Thought Box</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/create">Create</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <div class="head-bar">
+    <h1 class="tb"> Thought Box</h1>
+  </div> -->
+
+</section>
+
+
+  <div class="each-blog">
+    <p class="name"><%= user.fname %></p>
+    <% user.thts.forEach(function(e){  %>
+      <p><%= e %></p>
+       <hr>
+    <% }); %>
+    </div>
+
+
+<%- include('partials/footer') %>

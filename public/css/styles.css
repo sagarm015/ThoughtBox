@@ -1,0 +1,110 @@
+.tb{
+  padding: 80px;
+  color :white;
+  font-size: 5rem;
+  font-family: 'Dancing Script', cursive;
+}
+nav{
+  background-color: #82c4c3;
+}
+.nav-brand{
+  padding: 100px;
+  color :white;
+  font-size: 5rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+.nav-brand:hover{
+  color:white;
+text-decoration: none;
+}
+.nav-link{
+  padding:30px;
+  color: #ffe277;
+  font-size: 1.3rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+body{
+  background-color: #ee8572;
+}
+.gs{
+  background-color:white;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left:380px;
+  border-radius: 5%;
+  top:50px;
+
+}
+.b{
+
+}
+.get-started{
+
+  color:#ee8572;
+  font-size: 3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding:10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.r{
+  text-align: left;
+}
+.l{
+  text-align: right;
+}
+.or{
+  text-align: center;
+  color:white;
+}
+.bt{
+  font-size: 2rem;
+
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.about-content{
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin: 30px auto 30px;
+  font-size: 1.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.register{
+  padding: 40px;
+  text-align: center;
+
+}
+.registerme{
+  text-align: center;
+  margin: 0 100px 10px 620px;
+}
+.inputs{
+  margin:5px;
+  background-color:#ececec;
+  font-size: 1.3rem;
+  border-radius: 20%;
+  padding: 10px;
+}
+.each-blog{
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: 50px 150px 50px 150px;
+  background-color: #fdd998;
+  color:#024249;
+  padding: 20px;
+   font-family: 'Hind Siliguri', sans-serif;
+}
+.name{
+  font-size: 1.7rem;
+  color:#222831;
+  font-weight: bolder;
+  font-family:  'Hind Siliguri', sans-serif;
+}
+.s{
+  background-color: red;
+}
