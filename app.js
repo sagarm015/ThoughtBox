@@ -147,6 +147,6 @@ app.post("/create",function(req,res){
   });
 });
 
-app.listen(3000, function() {
+app.listen(process.env.PORT, function() {
   console.log(" hello server started at port 3000");
 });
