@@ -22,7 +22,7 @@ app.use(session({ //settin up are session
 app.use(passport.initialize()); //use pass port and intialize
 app.use(passport.session()); //setting up passport for authentication in the session
 
-mongoose.connect("mongodb+srv://admin-sagar:testing4321@cluster0-yhcmp.mongodb.net/thoughtboxDB",{
+mongoose.connect(process.env.MONGODBURL,{
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
